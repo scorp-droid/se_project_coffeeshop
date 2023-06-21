@@ -13,4 +13,4 @@ This is the second project of the Web Development program at Practicum. It was c
 
 ## Plan on improving the project
 
-Add your ideas here :)
+Could add a radial or linear gradient to header and/or loading sign that looks like coffee beans as user first loads page
