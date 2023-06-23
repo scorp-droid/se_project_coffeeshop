@@ -299,7 +299,6 @@ input#datetime {
   font-size: 16px;
   line-height: 20px;
   margin-top: 32px;
-  
 }
 
 /*style the checkbox */
@@ -308,7 +307,7 @@ input#datetime {
   height: 20px;
   margin: 12px;
 }
- /* issues with part 3
+/* issues with part 3
  book a table not 100px down from top of page
 placeholder text should not be left aligned
  */
