@@ -6,7 +6,6 @@
   font-family: "Inter", "Arial", "sans-serif";
   font-size: 16px;
   line-height: 20px;
-  
 }
 
 .header {
@@ -158,7 +157,6 @@
   margin-bottom: 80px;
   margin-right: 0;
   margin-top: 0;
-
   color: #fff;
   font-family: "Noto Serif", "Times New Roman", "sans-serif";
   font-size: 20px;
@@ -188,3 +186,129 @@
   margin-top: 24px;
   font-family: "Inter", "Arial", "sans-serif";
 }
+
+/* sprint 2 part 3, reservation book a table form  */
+.reservation {
+  background-color: #d9e7ff;
+  background-image: url("../images/background_reservation.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  min-height: 720px;
+  max-height: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.reservation__form {
+  margin-top: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0px;
+}
+
+/* the parent container for everything except 'book a table' text at top*/
+.form__fieldset {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* labels aka the words Name*, numGuest*, date*, email*/
+label {
+  margin-bottom: 8px;
+
+  font-family: "Inter", "Arial", "sans-serif";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+/* the input boxes for name, numGuests, date, email*/
+input {
+  width: 385px;
+  height: 60px;
+  font-family: "Inter", "Arial", "sans-serif";
+  font-size: 20px;
+  line-height: 30px;
+  color: #838383;
+}
+
+/* p book a table at the top */
+.reservation__title {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 0px;
+
+  font-family: "Inter", "Arial", "sans-serif";
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+}
+
+/* fieldset styling */
+
+/* p name */
+.form__input {
+  border-radius: 4px;
+  margin-top: 0;
+}
+
+/* change the text color inside the date & time input per breif*/
+.form__label[for="datetime"],
+input#datetime {
+  color: #000;
+}
+
+/* numGuests, date& email styling*/
+.form__label {
+  text-align: left;
+  margin-top: 32px;
+}
+
+/* btn book a table */
+.form__button {
+  margin-top: 32px;
+  max-width: 385px;
+  height: 60px;
+  font-family: "Inter", "Arial", "sans-serif";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  border-radius: 4px;
+  transition: opacity 0.3s ease;
+  color: #fff;
+  background-color: #2f80ed;
+}
+
+.form__button:hover {
+  opacity: 0.7;
+}
+
+/* i agree w terms of use styling */
+.form__checkbox {
+  border-radius: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 120px;
+  font-family: "Inter", "Arial", "sans-serif";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  margin-top: 32px;
+  
+}
+
+/*style the checkbox */
+.form__checkbox input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  margin: 12px;
+}
+ /* issues with part 3
+ book a table not 100px down from top of page
+placeholder text should not be left aligned
+ */
