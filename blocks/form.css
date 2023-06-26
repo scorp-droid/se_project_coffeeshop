@@ -17,6 +17,16 @@
   margin-top: 32px;
 }
 
+.form__label:first-child {
+  margin-top: 0;
+}
+
+/* change the text color inside the date & time input per breif*/
+.form__label[for="datetime"],
+input#datetime {
+  color: #000;
+}
+
 /* the input boxes for name, numGuests, date, email*/
 .form__input {
   width: 385px;
@@ -25,12 +35,10 @@
   font-size: 20px;
   line-height: 30px;
   color: #838383;
-}
-
-/* change the text color inside the date & time input per breif*/
-.form__label[for="datetime"],
-input#datetime {
-  color: #000;
+  border: 1px solid #838383;
+  box-sizing: border-box;
+  padding: 10px;
+  border-radius: 4px;
 }
 
 /* btn book a table */
@@ -46,6 +54,7 @@ input#datetime {
   transition: opacity 0.3s ease;
   color: #fff;
   background-color: #2f80ed;
+  border: none;
 }
 
 .form__button:hover {
@@ -70,5 +79,5 @@ input#datetime {
 .form__checkbox input[type="checkbox"] {
   width: 20px;
   height: 20px;
-  margin: 12px;
+  margin-right: 12px;
 }

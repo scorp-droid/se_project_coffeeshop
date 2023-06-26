@@ -8,7 +8,6 @@
   font-size: 20px;
   line-height: 30px;
   padding-bottom: 32px;
-  text-align: center;
   margin: 0;
 }
 
@@ -25,10 +24,10 @@
 }
 
 .card__list-item:last-child {
-  margin-bottom: 0;
+  padding-bottom: 0;
 }
 
-.card ul {
+.card__list {
   margin: 0 auto;
   padding: 0 0 0 0;
 }
