@@ -1,0 +1,74 @@
+.form__fieldset {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: none;
+  padding: 0;
+}
+
+/* labels aka the words Name*, numGuest*, date*, email*/
+.form__label {
+  margin-bottom: 8px;
+  font-family: "Inter", "Arial", "sans-serif";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: left;
+  margin-top: 32px;
+}
+
+/* the input boxes for name, numGuests, date, email*/
+.form__input {
+  width: 385px;
+  height: 60px;
+  font-family: "Inter", "Arial", "sans-serif";
+  font-size: 20px;
+  line-height: 30px;
+  color: #838383;
+}
+
+/* change the text color inside the date & time input per breif*/
+.form__label[for="datetime"],
+input#datetime {
+  color: #000;
+}
+
+/* btn book a table */
+.form__button {
+  margin-top: 32px;
+  max-width: 385px;
+  height: 60px;
+  font-family: "Inter", "Arial", "sans-serif";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  border-radius: 4px;
+  transition: opacity 0.3s ease;
+  color: #fff;
+  background-color: #2f80ed;
+}
+
+.form__button:hover {
+  opacity: 0.7;
+}
+
+/* i agree w terms of use styling */
+.form__checkbox {
+  border-radius: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 120px;
+  font-family: "Inter", "Arial", "sans-serif";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  margin-top: 32px;
+}
+
+/*style the checkbox */
+.form__checkbox input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  margin: 12px;
+}
