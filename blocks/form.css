@@ -76,7 +76,7 @@ input#datetime {
 }
 
 
-.form__label_type_checkbox input[type="checkbox"] {
+.form__checkbox  {
   width: 20px;
   height: 20px;
   margin-right: 12px;
