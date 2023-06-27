@@ -62,7 +62,7 @@ input#datetime {
 }
 
 /* i agree w terms of use styling */
-.form__checkbox {
+.form__label_type_checkbox {
   border-radius: 2px;
   display: flex;
   align-items: center;
@@ -76,7 +76,7 @@ input#datetime {
 }
 
 /*style the checkbox */
-.form__checkbox input[type="checkbox"] {
+.form__label_type_checkbox input[type="checkbox"] {
   width: 20px;
   height: 20px;
   margin-right: 12px;
