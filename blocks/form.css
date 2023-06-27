@@ -75,9 +75,13 @@ input#datetime {
   margin-top: 32px;
 }
 
-/*style the checkbox */
+
 .form__label_type_checkbox input[type="checkbox"] {
   width: 20px;
   height: 20px;
   margin-right: 12px;
 }
+
+
+
+
